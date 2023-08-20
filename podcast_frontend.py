@@ -45,7 +45,7 @@ def main():
             )
 
         # Display the podcast guest and their details in a side-by-side layout
-        col3, col4 = st.columns([2, 4, 4])
+        col2, col4, col4 = st.columns([2, 4, 4])
 
         with col2:
             st.subheader("Podcast Guest")
